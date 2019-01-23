@@ -1,0 +1,188 @@
+html, body {
+    height: 100%;
+}
+html, body, a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+/* addClass */
+.blind {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+/* color */
+.basicColor1 {
+    color: rgba(68, 70, 79, 0.5);
+}
+.basicBgColor1 {
+    background-color: rgba(68, 70, 79, 0.5);
+}
+.basicColor2 {
+    color: #2f323b;
+}
+.basicBgColor2 {
+    background-color: #2f323b;
+}
+.basicColor3 {
+    color: #2a2d35;
+}
+.basicBgColor3 {
+    background-color: #2a2d35;
+}
+.basicColor4 {
+    color: #24262d;
+}
+.basicBgColor4 {
+    background-color: #24262d;
+}
+
+.pointColor1 {
+    color: #f7af3e;
+}
+.pointBgColor1 {
+    background-color: #f7af3e;
+}
+.pointColor2 {
+    color: #f6a821;
+}
+.pointBgColor2 {
+    background-color: #f6a821;
+}
+.pointColor3 {
+    color: #f5a212;
+}
+.pointBgColor3 {
+    background-color: #f5a212;
+}
+
+.fontSubColor {
+    color: #949ba2;
+}
+/* /color */
+
+/* fontSize */
+.fontSize14 {
+    font-size: 14px;
+}
+/* /fontSize */
+
+/* float */
+.clearfix::after {
+    content: "";
+    dispaly: table;
+    clear: both
+}
+.fRight {
+    float: right;
+}
+.fLeft {
+    float: left;
+}
+/* /float */
+
+/* display */
+.none {
+    display: none;
+}
+.inline {
+    display: inline;
+}
+.inlineBlock {
+    display: inline-block;
+}
+.block {
+    display: block;
+}
+/* /dispaly */
+
+/* position */
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.fixed {
+    position: fixed;
+}
+/* /position */
+
+/* /addClass */
+
+
+
+#vueWrap {
+    height: 100%;
+}
+
+/* header */
+#header {
+    background-color: #fff;
+    box-shadow:0px 1px 15px 1px #333;  
+}
+
+#header a {
+    color: #2a2d35;
+}
+
+/* topMenu */
+.topMenu {
+    height: 50px;
+}
+.topProfile {
+    padding: 0 30px;
+}
+.topProfile:hover {
+    background-color: #f6a821;
+}
+#header .topProfile:hover {
+    color: #fff;
+    text-shadow: 1px 1px rgba(68, 70, 79, 0.2);
+}
+.profileImgDiv {
+    width: 45px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 15px 10px 0;
+}
+.profileImgDiv img {
+    width: 100%;
+    border-radius: 40px;
+    border: 1px solid rgba(68, 70, 79, 0.2);
+}
+.nameDiv {
+    font-weight: bold;
+    line-height: 50px;
+}
+.topProfilePopup {
+
+    top: 50px;
+    right: 0;
+    border: 1px solid rgba(68, 70, 79, 0.3);
+}
+.topProfilePopupList {
+
+}
+.topProfilePopupList a {
+
+}
+/* /topMenu */
+
+/* /header */
+
+
+/* main */
+/* /main */
+
+
+/* footer */
+/* /footer */
